@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/kakadiya326/JavaScript#readme",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
