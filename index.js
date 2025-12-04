@@ -35,7 +35,7 @@ searchInp.addEventListener('change', (e) => {
 
 
 async function getData() {
-    let data = await fetch('http://localhost:3000/students');
+    let data = await fetch('https://json-server-l0n5.onrender.com/students');
     return data = await data.json();
 }
 
@@ -78,14 +78,14 @@ async function tableBody() {
 }
 
 async function deleteData(id) {
-    let data = await fetch(`http://localhost:3000/students/${id}`, {
+    let data = await fetch(`https://json-server-l0n5.onrender.com/students/${id}`, {
         method: 'DELETE',
     });
     tableBody();
 }
 
 async function updateData(id) {
-    let data = await fetch(`http://localhost:3000/students/?id=${id}`);
+    let data = await fetch(`https://json-server-l0n5.onrender.com/students/?id=${id}`);
     data = await data.json();
     setFormData(data[0]);
     idField.value = id;
@@ -134,11 +134,11 @@ async function updateTable(e, methodName) {
     } else {
         var url;
         if (methodName == 'POST') {
-            url = `http://localhost:3000/students`;
+            url = `https://json-server-l0n5.onrender.com/students`;
             flag = true;
             changeBtn();
         } else {
-            url = `http://localhost:3000/students/${containerArr.id}`;
+            url = `https://json-server-l0n5.onrender.com/students/${containerArr.id}`;
             flag = true;
             changeBtn();
         }
