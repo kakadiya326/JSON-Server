@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Chiranj Patel",
+      "department": "Computer Science",
+      "course": "MCA",
+      "year": "3rd",
+      "age": "23",
+      "email": "ck@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Cityville",
+      "cgpa": "9"
+    },
+    {
+      "id": 2,
+      "name": "Aarav Patel",
+      "department": "Information Technology",
+      "course": "BCA",
+      "year": "2nd",
+      "age": 19,
+      "email": "ap@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Elm St, Townsville",
+      "cgpa": 8.2
+    },
+    {
+      "id": 3,
+      "name": "Sneha Sharma",
+      "department": "Electronics",
+      "course": "MCA",
+      "year": "1st",
+      "age": 21,
+      "email": "ss@example.com",
+      "phone": "555-123-4567",
+      "address": "789 Oak St, Villageville",
+      "cgpa": 9.1
+    },
+    {
+      "id": 4,
+      "name": "Rohan Mehta",
+      "department": "Mechanical Engineering",
+      "course": "BCA",
+      "year": "3rd",
+      "age": 22,
+      "email": "rm@example.com",
+      "phone": "444-555-6666",
+      "address": "321 Pine St, Hamletville",
+      "cgpa": 7.9
+    },
+    {
+      "id": 5,
+      "name": "Priya Singh",
+      "department": "Civil Engineering",
+      "course": "MCA",
+      "year": "2nd",
+      "age": 20,
+      "email": "ps@example.com",
+      "phone": "333-444-5555",
+      "address": "654 Maple St, Boroughville",
+      "cgpa": 8.5
+    },
+    {
+      "id": 6,
+      "name": "Kakadiya Chiranj Dayalbhai",
+      "department": "Computer Science",
+      "course": "MCA",
+      "year": "1st",
+      "age": "21",
+      "email": "p@gmail.com",
+      "phone": "+919016291573",
+      "address": "213, shree swaminarayan gurukul, tramba, rajkot",
+      "cgpa": "9"
+    }
+  ]
+}
