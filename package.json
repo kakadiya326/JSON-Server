@@ -4,7 +4,8 @@
   "description": "\"# JavaScript\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 3000"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kakadiya326/JavaScript/issues"
   },
-  "homepage": "https://github.com/kakadiya326/JavaScript#readme"
+  "homepage": "https://github.com/kakadiya326/JavaScript#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
 }
